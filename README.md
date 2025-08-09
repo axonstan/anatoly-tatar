@@ -1,3 +1,6 @@
+- Настроить ru/en локейлы через json
+- Добавить страницу CV c новыми pdf на 2 языках
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
