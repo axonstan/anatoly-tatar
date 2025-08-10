@@ -47,14 +47,12 @@ const config: Config = {
         path: 'ru',
       },
     },
-    // @ts-ignore
-    // showDefaultLocaleInUrl: true,
   },
-  customFields: {
-    //   i18n: {
-    // showDefaultLocaleInUrl: true,
-    //   }
-  },
+  // customFields: {
+  //   i18n: {
+  //     showDefaultLocaleInUrl: true,
+  //   }
+  // },
 
   presets: [
     [
@@ -113,12 +111,16 @@ const config: Config = {
         },
         {
           href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          // label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
         {
           type: 'localeDropdown',
           position: 'right',
+          label: ' ',
+          className: 'language-icon-dropdown',
         },
       ],
     },
