@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://anatoly.tatar',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -32,18 +32,28 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'ru',
+    defaultLocale: 'en',
+    path: 'i18n',
     locales: ['en', 'ru'],
     localeConfigs: {
       en: {
         label: 'English',
         direction: 'ltr',
+        path: 'en',
       },
       ru: {
         label: 'Русский',
         direction: 'ltr',
+        path: 'ru',
       },
     },
+    // @ts-ignore
+    // showDefaultLocaleInUrl: true,
+  },
+  customFields: {
+    //   i18n: {
+    // showDefaultLocaleInUrl: true,
+    //   }
   },
 
   presets: [
@@ -90,16 +100,17 @@ const config: Config = {
       },
       items: [
         {
-          type: 'localeDropdown',
-          position: 'right',
-        },
-        {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Tutorial',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
+        {
+          to: '/cv',
+          label: 'CV',
+          position: 'left',
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',

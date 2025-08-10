@@ -1,5 +1,33 @@
 {
-  "theme.ErrorPageContent.title": {
+  "global.description": {
+    "message": "Личный веб-сайт Анатолия Солдатова, блог о всем, что приходит мне в голову и может вас заинтересовать.",
+    "description": "The website description"
+  },
+  "global.tagline": {
+    "message": "ML Инженер",
+    "description": "The homepage tagline"
+  },
+  "global.title": {
+    "message": "Анатолий Солдатов",
+    "description": "The website title"
+  },
+  "homepage.description.descriptionLine_1": {
+    "message": "Разработчик, преподаватель, мечтатель и любитель технологий.",
+    "description": "The first line of description"
+  },
+  "homepage.description.descriptionLine_2": {
+    "message": "Я веду блог о том, что изучаю или хочу поделиться.",
+    "description": "The second line of description"
+  },
+  "homepage.description.descriptionLine_3": {
+    "message": "Я обожаю участвовать в мероприятиях для разработчиков.",
+    "description": "The third line of description"
+  },
+  "homepage.description.descriptionLine_4": {
+    "message": "и я также увлекаюсь открытым исходным кодом.",
+    "description": "The fourth line of description"
+  },
+  "theme.ErrorPageContent.title": { 
     "message": "На странице произошёл сбой.",
     "description": "The title of the fallback page when the page crashed"
   },
