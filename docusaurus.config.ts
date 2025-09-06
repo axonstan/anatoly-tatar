@@ -28,6 +28,20 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  // preload custom font
+  // headTags: [
+  //   {
+  //     tagName: 'link',
+  //     attributes: {
+  //       rel: 'preload',
+  //       href: '/fonts/MyCustomFont.ttf',
+  //       as: 'font',
+  //       type: 'font/ttf', // Specify the correct font type
+  //       crossorigin: 'anonymous', // Important for preloading fonts
+  //     },
+  //   },
+  // ],
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".

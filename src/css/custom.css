@@ -75,3 +75,14 @@ html[data-theme='dark'] .header-github-link:before {
 .dropdown .navbar__link::after {
   display: none !important;
 }
+
+@font-face {
+  font-family: 'GeistMono';
+  src: url('/fonts/GeistMono-VariableFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --ifm-font-family-base: 'GeistMono'
+}
