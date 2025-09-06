@@ -106,6 +106,7 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Anatoly Tatar',
+      hideOnScroll: true,
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
