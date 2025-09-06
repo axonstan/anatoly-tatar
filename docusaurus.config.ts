@@ -97,24 +97,41 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        // { to: '/blog', label: 'Blog', position: 'left' },
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          to: '/about',
+          label: 'About',
           position: 'left',
-          label: 'Tutorial',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
         {
           to: '/cv',
           label: 'CV',
           position: 'left',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Knowledge',
+        },
+        {
+          to: '/contacts',
+          label: 'Contacts',
+          position: 'left',
+        },
+        // {
+        //   href: 'https://github.com/facebook/docusaurus',
+        //   // label: 'GitHub',
+        //   position: 'right',
+        //   className: 'header-tg-link',
+        //   'aria-label': 'Telegram',
+        // },
+        {
           href: 'https://github.com/facebook/docusaurus',
           // label: 'GitHub',
           position: 'right',
           className: 'header-github-link',
-          'aria-label': 'GitHub repository',
+          'aria-label': 'GitHub',
         },
         {
           type: 'localeDropdown',
