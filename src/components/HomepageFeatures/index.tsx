@@ -21,8 +21,8 @@ function Feature({ title, Svg, description, link }: FeatureItem) {
         </Link>
       </div>
       <div className="text--center padding-horiz--md">
-        <Link style={{ color: "black" }} to={link}>
-          <Heading as="h3" style={{ textDecoration: "underline solid black 2px", textUnderlineOffset: 4, }}>{title}</Heading>
+        <Link to={link} className={styles.featureHeadingLink}>
+          <Heading as="h3">{title}</Heading>
         </Link>
         <p>{description}</p>
       </div>
@@ -55,7 +55,7 @@ export default function HomepageFeatures(): ReactNode {
           {
             translate({
               id: 'home.feature.knowledge.description',
-              message: 'Check out my experience and skills.',
+              message: 'Read out my knowledge base!',
             })
           }
         </>

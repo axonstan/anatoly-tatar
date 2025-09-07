@@ -22,7 +22,7 @@ export default function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/about">
+          <Link className="button button--primary button--lg" to="/about">
             {aboutTitle} →
           </Link>
         </div>
