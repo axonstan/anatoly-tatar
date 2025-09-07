@@ -102,5 +102,7 @@ html[data-theme='dark'] .header-tg-link:before {
 }
 
 :root {
-  --ifm-font-family-base: 'GeistMono'
+  /* use custom font */
+  --ifm-font-family-base: 'GeistMono';
+  /* --ifm-navbar-height: 80px; */
 }

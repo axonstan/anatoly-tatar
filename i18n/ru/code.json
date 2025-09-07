@@ -1,33 +1,69 @@
 {
-  "global.description": {
-    "message": "Личный веб-сайт Анатолия Солдатова, блог о всем, что приходит мне в голову и может вас заинтересовать.",
-    "description": "The website description"
+  "global.title": {
+    "message": "Анатолий Солдатов",
+    "description": "The website title"
   },
   "global.tagline": {
     "message": "ML Инженер",
     "description": "The homepage tagline"
   },
-  "global.title": {
-    "message": "Анатолий Солдатов",
-    "description": "The website title"
+  "global.description": {
+    "message": "Личный веб-сайт Анатолия Солдатова, блог о всем, что приходит мне в голову и может вас заинтересовать.",
+    "description": "The website description"
   },
-  "homepage.description.descriptionLine_1": {
-    "message": "Разработчик, преподаватель, мечтатель и любитель технологий.",
-    "description": "The first line of description"
+  "homepage---------------------------------------------------------------start": {
+    "message": ""
   },
-  "homepage.description.descriptionLine_2": {
-    "message": "Я веду блог о том, что изучаю или хочу поделиться.",
-    "description": "The second line of description"
+  "home.feature.cv.description": {
+    "message": "Узнайте о моём опыте и навыках."
   },
-  "homepage.description.descriptionLine_3": {
-    "message": "Я обожаю участвовать в мероприятиях для разработчиков.",
-    "description": "The third line of description"
+  "home.feature.knowledge.description": {
+    "message": "Загляните в мою базу знаний!"
   },
-  "homepage.description.descriptionLine_4": {
-    "message": "и я также увлекаюсь открытым исходным кодом.",
-    "description": "The fourth line of description"
+  "home.feature.contacts.description": {
+    "message": "Здесь также можно найти меня."
   },
-  "theme.ErrorPageContent.title": { 
+  "homepage-----------------------------------------------------------------end": {
+    "message": ""
+  },
+  "about------------------------------------------------------------------start": {
+    "message": ""
+  },
+  "about.title": {
+    "message": "Обо мне",
+    "description": "Page with information on me."
+  },
+  "about--------------------------------------------------------------------end": {
+    "message": ""
+  },
+  "cv---------------------------------------------------------------------start": {
+    "message": ""
+  },
+  "cv.title": {
+    "message": "CV"
+  },
+  "cv-----------------------------------------------------------------------end": {
+    "message": ""
+  },
+  "knowledge--------------------------------------------------------------start": {
+    "message": ""
+  },
+  "knowledge.title": {
+    "message": "Знания"
+  },
+  "knowledge--------------------------------------------------------------- end": {
+    "message": ""
+  },
+  "contacts---------------------------------------------------------------start": {
+    "message": ""
+  },
+  "contacts.title": {
+    "message": "Контакты"
+  },
+  "contacts-----------------------------------------------------------------end": {
+    "message": ""
+  },
+  "theme.ErrorPageContent.title": {
     "message": "На странице произошёл сбой.",
     "description": "The title of the fallback page when the page crashed"
   },

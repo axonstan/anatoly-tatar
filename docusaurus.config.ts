@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Anatoly Tatar',
-  tagline: 'Dinosaurs are cool',
+  title: 'Anatoly Soldatov',
+  tagline: 'ML Engineer',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -22,8 +22,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'PodYapolskiy', // Usually your GitHub org/user name.
+  projectName: 'anatoly-tatar', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -103,35 +103,35 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Anatoly Tatar',
+      title: "Anatoly Soldatov",
       hideOnScroll: true,
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
+      // logo: {
+      //   alt: 'My Site Logo',
+      //   src: 'img/logo.svg',
+      // },
       items: [
         // { to: '/blog', label: 'Blog', position: 'left' },
         {
           to: '/about',
-          label: 'About',
+          label: 'about',
           position: 'left',
         },
         {
           to: '/cv',
-          label: 'CV',
+          label: 'cv',
           position: 'left',
         },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Knowledge',
+          label: 'knowledge',
         },
         {
           to: '/contacts',
-          label: 'Contacts',
+          label: 'contacts',
           position: 'left',
         },
         // {

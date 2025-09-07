@@ -1,6 +1,6 @@
 {
   "title": {
-    "message": "Anatoly Tatar",
+    "message": "solan",
     "description": "The title in the navbar"
   },
   "logo.alt": {
@@ -18,5 +18,25 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.about": {
+    "message": "обо мне",
+    "description": "Обо мне"
+  },
+  "item.label.cv": {
+    "message": "cv",
+    "description": "CV"
+  },
+  "item.label.knowledge": {
+    "message": "знания",
+    "description": "Знания"
+  },
+  "item.label.contacts": {
+    "message": "контакты",
+    "description": "Контакты"
+  },
+  "item.label. ": {
+    "message": " ",
+    "description": "Navbar item with label  "
   }
 }

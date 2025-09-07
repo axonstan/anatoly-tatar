@@ -1,55 +1,29 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Translate, { translate } from '@docusaurus/Translate';
+import Link from '@docusaurus/Link';
 
 type FeatureItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
+  link: string;
 };
 
-const FeatureList: FeatureItem[] = [
-  {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-];
-
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description, link }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Link style={{ color: "black" }} to={link}>
+          <Svg className={styles.featureSvg} role="img" />
+        </Link>
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        <Link style={{ color: "black" }} to={link}>
+          <Heading as="h3" style={{ textDecoration: "underline solid black 2px", textUnderlineOffset: 4, }}>{title}</Heading>
+        </Link>
         <p>{description}</p>
       </div>
     </div>
@@ -57,6 +31,54 @@ function Feature({title, Svg, description}: FeatureItem) {
 }
 
 export default function HomepageFeatures(): ReactNode {
+  const FeatureList: FeatureItem[] = [
+    {
+      title: translate({ id: 'cv.title', message: 'CV' }),
+      Svg: require('@site/static/img/cv.svg').default,
+      description: (
+        <>
+          {
+            translate({
+              id: 'home.feature.cv.description',
+              message: 'Check out my experience and skills.',
+            })
+          }
+        </>
+      ),
+      link: "/cv"
+    },
+    {
+      title: translate({ id: 'knowledge.title', message: 'Knowledge' }),
+      Svg: require('@site/static/img/graph.svg').default,
+      description: (
+        <>
+          {
+            translate({
+              id: 'home.feature.knowledge.description',
+              message: 'Check out my experience and skills.',
+            })
+          }
+        </>
+      ),
+      link: "/docs"
+    },
+    {
+      title: translate({ id: 'contacts.title', message: 'Contacts' }),
+      Svg: require('@site/static/img/contacts.svg').default,
+      description: (
+        <>
+          {
+            translate({
+              id: 'home.feature.contacts.description',
+              message: 'Here you also can find me.',
+            })
+          }
+        </>
+      ),
+      link: "/contacts"
+    },
+  ];
+
   return (
     <section className={styles.features}>
       <div className="container">
