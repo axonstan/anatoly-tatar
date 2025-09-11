@@ -126,7 +126,12 @@
     "message": "Знания"
   },
   "contacts.title": {
-    "message": "Контакты"
+    "message": "Контакты",
+    "description": "The title of the contacts page"
+  },
+  "contacts.description": {
+    "message": "Здесь вы можете связаться со мной",
+    "description": "Описание страницы контактов"
   },
   "theme.ErrorPageContent.title": {
     "message": "На странице произошёл сбой.",

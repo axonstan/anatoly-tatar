@@ -4,8 +4,6 @@ import { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import styles from './about.module.css';
-// import {BlogSidebar} from '@theme/BlogSidebar';
-
 
 export default function About(): ReactNode {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1000);
