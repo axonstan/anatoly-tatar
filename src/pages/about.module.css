@@ -1,0 +1,12 @@
+.aboutSidebarLink {
+  &:hover {
+    text-decoration: underline solid var(--ifm-color-primary) 2px;
+    text-underline-offset: 4px;
+  }
+}
+
+.aboutRoleText {
+  color: var(--ifm-color-primary-dark);
+  font-weight: normal;
+  /* font-style: italic; */
+}
