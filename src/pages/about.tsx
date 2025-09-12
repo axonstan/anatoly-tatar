@@ -1,22 +1,10 @@
 import type { ReactNode } from 'react';
-import { useState, useEffect } from 'react';
 import { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import styles from './about.module.css';
 
 export default function About(): ReactNode {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1000);
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 1000);
-    };
-    window.addEventListener('resize', handleResize);
-    // Initial check in case of SSR or resize before mount
-    handleResize();
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
   const { siteConfig } = useDocusaurusContext();
 
   siteConfig.title = translate({
@@ -56,34 +44,19 @@ export default function About(): ReactNode {
       title={siteConfig.title}
       description={siteConfig.customFields.description as string}
     >
-      {/* style={{ display: 'flex' }} */}
       <div className='container margin-vert--lg'>
         <div className='row'>
-          {!isMobile ? (
-            <div
-              className='col col--3'
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                position: 'sticky',
-                top: '0',
-                alignSelf: 'flex-start',
-                height: '0vh',
-                overflowY: 'visible',
-                // marginTop: '2em',
-              }}
-            >
-              {
-                sidebar.map((item, index) => (
-                  item.title && item.link ? (
-                    <div key={index} style={{ marginTop: '1em', marginLeft: (item.depth - 1) * 40 }}>
-                      - <a href={item.link} className={styles.aboutSidebarLink}>{item.title}</a>
-                    </div>
-                  ) : null
-                ))
-              }
-            </div>
-          ) : null}
+          <div className={`col col--3 ${styles.aboutSidebar}`}>
+            {
+              sidebar.map((item, index) => (
+                item.title && item.link ? (
+                  <div key={index} style={{ marginTop: '1em', marginLeft: (item.depth - 1) * 40 }}>
+                    - <a href={item.link} className={styles.aboutSidebarLink}>{item.title}</a>
+                  </div>
+                ) : null
+              ))
+            }
+          </div>
           <div className='col col--7' >
             <main>
               <h1>{translate({ id: "global.title", message: "Anatoly Soldatov" })}</h1>
