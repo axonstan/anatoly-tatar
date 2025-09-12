@@ -13,7 +13,7 @@ function useIsMobile() {
 const CVPage = () => {
   const { i18n } = useDocusaurusContext();
   const locale = i18n.currentLocale;
-  const pdfSrc = `/cv/cv_${locale}.pdf`;
+  const pdfSrc = `cv/cv_${locale}.pdf`;
 
   const isMobile = useIsMobile();
   const height = isMobile ? "600px" : "1200px";
