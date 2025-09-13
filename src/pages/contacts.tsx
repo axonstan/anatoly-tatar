@@ -26,7 +26,10 @@ export default function Contacts(): ReactNode {
 
   return (
     <Layout
-      title={siteConfig.title}
+      title={translate({
+        id: 'contacts.title',
+        message: "Contacts",
+      })}
       description={siteConfig.customFields.description as string}
     >
       <div

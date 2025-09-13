@@ -41,7 +41,10 @@ export default function About(): ReactNode {
 
   return (
     <Layout
-      title={siteConfig.title}
+      title={translate({
+        id: 'about.title',
+        message: "About",
+      })}
       description={siteConfig.customFields.description as string}
     >
       <div className='container margin-vert--lg'>
