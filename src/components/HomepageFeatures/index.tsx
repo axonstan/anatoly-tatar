@@ -60,7 +60,7 @@ export default function HomepageFeatures(): ReactNode {
           }
         </>
       ),
-      link: "/docs/intro"
+      link: "/knowledge/intro"
     },
     {
       title: translate({ id: 'contacts.title', message: 'Contacts' }),
