@@ -144,7 +144,7 @@ const config: Config = {
         //   'aria-label': 'Telegram',
         // },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/PodYapolskiy',
           // label: 'GitHub',
           position: 'right',
           className: 'header-github-link',
