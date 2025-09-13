@@ -1,11 +1,9 @@
 {
   "global.title": {
-    "message": "Анатолий Солдатов",
-    "description": "The website title"
+    "message": "Анатолий Солдатов"
   },
   "global.tagline": {
-    "message": "ML Инженер",
-    "description": "The homepage tagline"
+    "message": "ML Инженер"
   },
   "global.description": {
     "message": "Личный веб-сайт Анатолия Солдатова, блог о всем, что приходит мне в голову и может вас заинтересовать.",
@@ -25,96 +23,73 @@
     "description": "Page with information on me."
   },
   "about.introduction": {
-    "message": "Введение",
-    "description": "Раздел о введении"
+    "message": "Введение"
   },
   "about.introduction.description": {
-    "message": "Я Анатолий, ML инженер, студент бакалавриата Университета Иннополис. Горю желанием изучать программирование, машинное обучение, иностранные языки и т.д.",
-    "description": "Описание введения"
+    "message": "Я Анатолий, ML инженер, студент бакалавриата Университета Иннополис. Горю желанием изучать программирование, машинное обучение, иностранные языки и т.д."
   },
   "about.work-experience": {
-    "message": "Опыт Работы",
-    "description": "Раздел об опыте работы"
+    "message": "Опыт Работы"
   },
   "about.work-experience.to-present": {
-    "message": "по наст. время",
-    "description": "Описание текущего статуса"
+    "message": "по наст. время"
   },
   "about.work-experience.mts-web-services": {
-    "message": "МТС Веб Сервисы",
-    "description": "Описание компании МТС Веб Сервисы"
+    "message": "МТС Веб Сервисы"
   },
   "about.work-experience.mts-web-services.role": {
-    "message": "ML Инженер",
-    "description": "Роль ML инженера в компании МТС Веб Сервисы"
+    "message": "ML Инженер"
   },
   "about.work-experience.mts-web-services.1": {
-    "message": "Добавил функционал RAG сервиса на FastAPI, храня порядка 1000 обработанных корпоративных документов в Qdrant для векторного поиска",
-    "description": "Описание опыта с добавлением функционала RAG сервиса"
+    "message": "Добавил функционал RAG сервиса на FastAPI, храня порядка 1000 обработанных корпоративных документов в Qdrant для векторного поиска"
   },
   "about.work-experience.mts-web-services.2": {
-    "message": "Настроил мониторинг 25 метрик для vLLM и RAG сервиса для отслеживания в проде через Prometheus и Grafana",
-    "description": "Описание опыта с настройкой мониторинга"
+    "message": "Настроил мониторинг 25 метрик для vLLM и RAG сервиса для отслеживания в проде через Prometheus и Grafana"
   },
   "about.work-experience.mts-web-services.3": {
-    "message": "Настроил измерение 4 RAGAS метрик LLM-as-a-Judge для оценки работы RAG пайплайна и проведения дальнейших сравнительных экспериментов с помощью Langfuse",
-    "description": "Описание опыта с настройкой измерения метрик"
+    "message": "Настроил измерение 4 RAGAS метрик LLM-as-a-Judge для оценки работы RAG пайплайна и проведения дальнейших сравнительных экспериментов с помощью Langfuse"
   },
   "about.work-experience.airi": {
-    "message": "АИРИ",
-    "description": "AI Research Institute"
+    "message": "АИРИ"
   },
   "about.work-experience.airi.role": {
-    "message": "ML Практикант",
-    "description": "Роль ML практиканта в AI Research Institute"
+    "message": "ML Практикант"
   },
   "about.work-experience.airi.1": {
-    "message": "Занял 7/11 и 5/9 места на personality и performance треках соревнования AVI Challenge 2025",
-    "description": "Описание опыта с достижением на соревновании"
+    "message": "Занял 7/11 и 5/9 места на personality и performance треках соревнования AVI Challenge 2025"
   },
   "about.work-experience.airi.2": {
-    "message": "Прогнал более 100 сравнительных экспериментов сочетания модальностей и архитектур моделей, отслеживая обучение и метрики через MLflow",
-    "description": "Описание опыта с проведением экспериментов"
+    "message": "Прогнал более 100 сравнительных экспериментов сочетания модальностей и архитектур моделей, отслеживая обучение и метрики через MLflow"
   },
   "about.work-experience.along": {
-    "message": "Алонг",
-    "description": "Компания Алонг"
+    "message": "Алонг"
   },
   "about.work-experience.along.role": {
-    "message": "Промпт Инженер",
-    "description": "Роль промпт инженера в компании Алонг"
+    "message": "Промпт Инженер"
   },
   "about.work-experience.along.1": {
-    "message": "Настроил 3 пайплайна с бизнес логикой в n8n",
-    "description": "Описание опыта с настройкой пайплайнов в n8n"
+    "message": "Настроил 3 пайплайна с бизнес логикой в n8n"
   },
   "about.work-experience.along.2": {
-    "message": "Оптимизировал промпты OpenAI analyze image узла под таксономию и задачи бизнес домена, вырастив точность распознавания классов и подклассов домена до 90%",
-    "description": "Описание опыта с оптимизацией промптов OpenAI"
+    "message": "Оптимизировал промпты OpenAI analyze image узла под таксономию и задачи бизнес домена, вырастив точность распознавания классов и подклассов домена до 90%"
   },
   "about.work-experience.along.3": {
-    "message": "Улучшил качество работы OpenAI edit image узла, для стабильной генерации изолированных объектов с прозрачным фоном, сократив расход токенов в 2 раза",
-    "description": "Описание опыта с улучшением работы OpenAI edit image узла"
+    "message": "Улучшил качество работы OpenAI edit image узла, для стабильной генерации изолированных объектов с прозрачным фоном, сократив расход токенов в 2 раза"
   },
   "about.studies": {
-    "message": "Образование",
-    "description": "Раздел о моем образовании"
+    "message": "Образование"
   },
   "about.studies.innopolis-university": {
-    "message": "Университет Иннополис",
-    "description": "Описание Университета Иннополис"
+    "message": "Университет Иннополис"
   },
   "about.studies.innopolis-university.description": {
-    "message": "Бакалавриат Прикладного Искусственного Интеллекта",
-    "description": "Описание бакалавриата Прикладного Искусственного Интеллекта"
+    "message": "Бакалавриат Прикладного Искусственного Интеллекта"
   },
   "about.studies.school": {
-    "message": "Школа",
-    "description": "Описание школы"
+    "message": "Школа"
   },
   "about.studies.school.description": {
-    "message": "Москва №1288",
-    "description": "Описание школы №1288"
+    "message": "Москва №1288"
   },
   "cv.title": {
     "message": "CV"
@@ -126,12 +101,10 @@
     "message": "Знания"
   },
   "contacts.title": {
-    "message": "Контакты",
-    "description": "The title of the contacts page"
+    "message": "Контакты"
   },
   "contacts.description": {
-    "message": "Здесь вы можете связаться со мной",
-    "description": "Описание страницы контактов"
+    "message": "Здесь вы можете связаться со мной"
   },
   "theme.ErrorPageContent.title": {
     "message": "На странице произошёл сбой.",

@@ -21,19 +21,19 @@
   },
   "item.label.about": {
     "message": "обо мне",
-    "description": "Обо мне"
+    "description": "Navbar item with label about"
   },
   "item.label.cv": {
     "message": "cv",
-    "description": "CV"
+    "description": "Navbar item with label cv"
   },
   "item.label.knowledge": {
     "message": "знания",
-    "description": "Знания"
+    "description": "Navbar item with label knowledge"
   },
   "item.label.contacts": {
     "message": "контакты",
-    "description": "Контакты"
+    "description": "Navbar item with label contacts"
   },
   "item.label. ": {
     "message": " ",
