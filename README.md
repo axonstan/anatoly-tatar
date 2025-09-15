@@ -51,3 +51,9 @@ Inspiration:
 - [aleksagordic](https://www.aleksagordic.com/blog/vllm) - geist mono font
 - [jest](https://jestjs.io/)
 - [vishalgandhi](https://vishalgandhi.in/)
+
+
+Домен
+
+- https://docs.github.com/ru/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain
+- https://docusaurus.io/docs/deployment#deploying-to-github-pages
