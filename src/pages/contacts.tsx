@@ -46,19 +46,19 @@ export default function Contacts(): ReactNode {
         <hr style={{ width: '80%', margin: '0 auto' }} />
         <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', padding: "2rem" }}>
-            <a href="https://github.com/PodYapolskiy" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/axonstan" target="_blank" rel="noopener noreferrer">
               <FaGithub size={40} />
             </a>
-            <a href="https://t.me/podyapolskiyaa" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/axonstan" target="_blank" rel="noopener noreferrer">
               <FaTelegramPlane size={40} />
             </a>
             <a href="mailto:podyapolskiyaa@gmail.com" target="_blank" rel="noopener noreferrer">
               <FaEnvelope size={40} />
             </a>
-            <a href="https://www.linkedin.com/in/podyapolsky" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/axonstan" target="_blank" rel="noopener noreferrer">
               <FaLinkedin size={40} />
             </a>
-            <a href="https://vk.com/podyapolskiyaa" target="_blank" rel="noopener noreferrer">
+            <a href="https://vk.com/axonstan" target="_blank" rel="noopener noreferrer">
               <FaVk size={40} />
             </a>
           </div>

@@ -22,7 +22,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'PodYapolskiy', // Usually your GitHub org/user name.
+  organizationName: 'axonstan', // Usually your GitHub org/user name.
   projectName: 'anatoly-tatar', // Usually your repo name.
   // deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -80,7 +80,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/PodYapolskiy/anatoly-tatar',
+          editUrl: 'https://github.com/axonstan/anatoly-tatar',
           showLastUpdateTime: true,
         },
         blog: false,
@@ -132,7 +132,7 @@ const config: Config = {
         //   'aria-label': 'Telegram',
         // },
         {
-          href: 'https://github.com/PodYapolskiy',
+          href: 'https://github.com/axonstan',
           // label: 'GitHub',
           position: 'right',
           className: 'header-github-link',
