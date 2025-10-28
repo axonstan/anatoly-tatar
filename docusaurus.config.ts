@@ -30,6 +30,12 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  scripts: [
+    {
+      src: "/js/mtsa.js",
+      async: true
+    }
+  ],
   // preload custom font
   // headTags: [
   //   {
@@ -250,7 +256,7 @@ const config: Config = {
     //     }
     //   ],
     //   copyright: ' '
-    //   // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+    //   // copyright: `Copyright © ${ new Date().getFullYear()} My Project, Inc.Built with Docusaurus.`,
     // },
     prism: {
       theme: prismThemes.github,
