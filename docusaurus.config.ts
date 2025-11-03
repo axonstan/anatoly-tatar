@@ -31,11 +31,10 @@ const config: Config = {
   onBrokenMarkdownLinks: 'warn',
 
   scripts: [
-    {
-      src: "/js/mtsa.js",
-      async: true
-    }
+    { src: "/js/container.js", async: true },
+    { src: "/js/sdk.js", async: true }
   ],
+
   // preload custom font
   // headTags: [
   //   {
