@@ -1,0 +1,108 @@
+{
+  "global.title": {
+    "message": "Anatoly Soldatov"
+  },
+  "global.tagline": {
+    "message": "ML Engineer"
+  },
+  "global.description": {
+    "message": "Anatoly Soldatov's personal website, a blog about everything that comes to my mind and might interest you.",
+    "description": "The website description"
+  },
+  "home.feature.cv.description": {
+    "message": "Check out my experience and skills."
+  },
+  "home.feature.knowledge.description": {
+    "message": "Read out my knowledge base!"
+  },
+  "home.feature.contacts.description": {
+    "message": "You can also find me here."
+  },
+  "about.title": {
+    "message": "About"
+  },
+  "about.introduction": {
+    "message": "Introduction"
+  },
+  "about.introduction.description": {
+    "message": "I'm Anatoly, ML Engineer, Innopolis University bachelor student. I'm eager to learn about programming, machine learning, foreign languages, etc."
+  },
+  "about.work-experience": {
+    "message": "Work Experience"
+  },
+  "about.work-experience.to-present": {
+    "message": "to present"
+  },
+  "about.work-experience.mts-web-services": {
+    "message": "MTS Web Services"
+  },
+  "about.work-experience.mts-web-services.role": {
+    "message": "ML Engineer"
+  },
+  "about.work-experience.mts-web-services.1": {
+    "message": "Added the functionality of the RAG service on FastAPI, storing about 1000 processed corporate documents in Qdrant for vector search"
+  },
+  "about.work-experience.mts-web-services.2": {
+    "message": "I have set up monitoring of 25 metrics for vLLM and RAG service for tracking in the product through Prometheus and Grafana"
+  },
+  "about.work-experience.mts-web-services.3": {
+    "message": "I have configured the measurement of 4 LLM-as-a-Judge RAGAS metrics to evaluate the performance of the RAG pipeline and conduct further comparative experiments using Langfuse"
+  },
+  "about.work-experience.airi": {
+    "message": "AIRI"
+  },
+  "about.work-experience.airi.role": {
+    "message": "ML Practitioner"
+  },
+  "about.work-experience.airi.1": {
+    "message": "I took 7th/11th and 5th/9th places on the personality and performance tracks of the AVI Challenge 2025 competition"
+  },
+  "about.work-experience.airi.2": {
+    "message": "I ran more than 100 comparative experiments combining modalities and model architectures, tracking training and metrics through MLflow"
+  },
+  "about.work-experience.along": {
+    "message": "Along"
+  },
+  "about.work-experience.along.role": {
+    "message": "Prompt Engineer"
+  },
+  "about.work-experience.along.1": {
+    "message": "Set up 3 pipelines with business logic in n8n"
+  },
+  "about.work-experience.along.2": {
+    "message": "Optimized the prompts of the OpenAI analyze image node for the taxonomy and tasks of the business domain, increasing the accuracy of recognition of classes and subclasses of the domain to 90%"
+  },
+  "about.work-experience.along.3": {
+    "message": "Improved the quality of the OpenAI edit image node, for stable generation of isolated objects with a transparent background, reducing the consumption of tokens by 2 times"
+  },
+  "about.studies": {
+    "message": "Education"
+  },
+  "about.studies.innopolis-university": {
+    "message": "Innopolis University"
+  },
+  "about.studies.innopolis-university.description": {
+    "message": "Applied Artificial Intelligence Bachelor"
+  },
+  "about.studies.school": {
+    "message": "School"
+  },
+  "about.studies.school.description": {
+    "message": "Moscow №1288"
+  },
+  "cv.title": {
+    "message": "CV"
+  },
+  "cv.download": {
+    "message": "Download PDF"
+  },
+  "knowledge.title": {
+    "message": "Knowledge"
+  },
+  "contacts.title": {
+    "message": "Contacts"
+  },
+  "contacts.description": {
+    "message": "Here you can contact me"
+  }
+}

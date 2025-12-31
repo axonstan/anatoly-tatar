@@ -2,8 +2,8 @@ import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
-import Translate, { translate } from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
+import { t } from '@site/src/utils';
 
 type FeatureItem = {
   title: string;
@@ -33,12 +33,13 @@ function Feature({ title, Svg, description, link }: FeatureItem) {
 export default function HomepageFeatures(): ReactNode {
   const FeatureList: FeatureItem[] = [
     {
-      title: translate({ id: 'cv.title', message: 'CV' }),
+      // title: t({ id: 'cv.title', message: '(default) CV' }),
+      title: t({ id: 'cv.title', message: 'CV' }),
       Svg: require('@site/static/img/cv.svg').default,
       description: (
         <>
           {
-            translate({
+            t({
               id: 'home.feature.cv.description',
               message: 'Check out my experience and skills.',
             })
@@ -48,12 +49,12 @@ export default function HomepageFeatures(): ReactNode {
       link: "/cv"
     },
     {
-      title: translate({ id: 'knowledge.title', message: 'Knowledge' }),
+      title: t({ id: 'knowledge.title', message: 'Knowledge' }),
       Svg: require('@site/static/img/graph.svg').default,
       description: (
         <>
           {
-            translate({
+            t({
               id: 'home.feature.knowledge.description',
               message: 'Read out my knowledge base!',
             })
@@ -63,14 +64,14 @@ export default function HomepageFeatures(): ReactNode {
       link: "/knowledge"
     },
     {
-      title: translate({ id: 'contacts.title', message: 'Contacts' }),
+      title: t({ id: 'contacts.title', message: 'Contacts' }),
       Svg: require('@site/static/img/contacts.svg').default,
       description: (
         <>
           {
-            translate({
+            t({
               id: 'home.feature.contacts.description',
-              message: 'Here you also can find me.',
+              message: 'You can also find me here.',
             })
           }
         </>

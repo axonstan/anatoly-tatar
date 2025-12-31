@@ -1,0 +1,42 @@
+{
+  "title": {
+    "message": "Anatoly Soldatov",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.about": {
+    "message": "about",
+    "description": "Navbar item with label about"
+  },
+  "item.label.cv": {
+    "message": "cv",
+    "description": "Navbar item with label cv"
+  },
+  "item.label.knowledge": {
+    "message": "knowledge",
+    "description": "Navbar item with label knowledge"
+  },
+  "item.label.contacts": {
+    "message": "contacts",
+    "description": "Navbar item with label contacts"
+  },
+  "item.label. ": {
+    "message": " ",
+    "description": "Navbar item with label  "
+  }
+}

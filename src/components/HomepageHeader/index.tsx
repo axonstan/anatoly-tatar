@@ -1,18 +1,18 @@
 import clsx from 'clsx';
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Link from '@docusaurus/Link';
-import Translate, { translate } from '@docusaurus/Translate';
 
 import logo from "@site/static/img/me.jpg";
 import styles from './styles.module.css';
 
+import { t } from '@site/src/utils';
+
 export default function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
 
-  const aboutTitle = translate({
+  const aboutTitle = t({
     id: 'about.title',
-    message: 'About',
-    description: 'Page with information on me.',
+    message: 'About'
   });
 
   return (
