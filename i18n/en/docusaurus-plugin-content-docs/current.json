@@ -1,0 +1,17 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.ML": {
+    "message": "ML",
+    "description": "The label for category ML in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ML.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category ML in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Маркетинг": {
+    "message": "Marketing"
+  }
+}

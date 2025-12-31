@@ -52,8 +52,11 @@ Inspiration:
 - [jest](https://jestjs.io/)
 - [vishalgandhi](https://vishalgandhi.in/)
 
-
 Домен
 
 - https://docs.github.com/ru/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain
 - https://docusaurus.io/docs/deployment#deploying-to-github-pages
+
+Чтобы изменить category на других локейлах
+
+В docs в _category_.yml label -> в i18n/[locale]/...-docs/current.json sidebar.tutorialSidebar.category.<label>
