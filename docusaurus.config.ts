@@ -28,7 +28,12 @@ const config: Config = {
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    }
+  },
 
   scripts: [
     { src: "/js/container.js", async: true },
