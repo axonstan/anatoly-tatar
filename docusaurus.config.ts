@@ -30,6 +30,7 @@ const config: Config = {
   onBrokenLinks: 'throw',
 
   markdown: {
+    mermaid: true,
     hooks: {
       onBrokenMarkdownLinks: 'warn',
     }
@@ -267,6 +268,8 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  themes: ['@docusaurus/theme-mermaid'],
 };
 
 export default config;

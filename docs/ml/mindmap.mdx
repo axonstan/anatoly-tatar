@@ -1,0 +1,35 @@
+---
+draft: true
+---
+import Mermaid from "@theme/Mermaid";
+
+<Mermaid
+  value={`graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;`}
+/>
+
+```mermaid
+graph TD
+    %% Node Definitions
+    Root((Project Core))
+
+    A[Documentation]
+    B[API Reference]
+    C[Community]
+
+    %% Connections
+    Root --> A
+    Root --> B
+    Root --> C
+
+    A --> A1[Getting Started]
+    A --> A2[Advanced Tips]
+
+    %% Click Events (Links)
+    click Root "https://docusaurus.io" "Go to Docusaurus"
+    click A1 "/docs/intro" "Internal Link"
+    click B "https://example.com/api" "External API"
+```
